@@ -30,9 +30,9 @@ Skewness Visualization: To enhance data distribution uniformity, we visualize an
 
 Outlier Visualization: We identify and rectify outliers by leveraging Seaborn's Boxplot. This straightforward visualization aids in pinpointing outlier-rich features. Our chosen remedy is the Interquartile Range (IQR) method, which brings outlier data points into alignment with the rest of the dataset, bolstering its resilience.
 
- **Algorithm Selection**: After thorough evaluation, Random Forest Regressor, demonstrate commendable testing accuracy. Upon checking for any overfitting issues in both training and testing, both models exhibit strong performance without overfitting concerns. I choose the Random Forest Regressor for its ability to strike a balance between interpretability and accuracy, ensuring robust performance on unseen data.
+ **Algorithm Selection**: After thorough evaluation, Random Forest Regressor, demonstrate commendable testing accuracy. Upon checking for any overfitting issues in both training and testing, both models exhibit strong performance without overfitting concerns. I choose the Decision Tree Regressor for its ability to strike a balance between interpretability and accuracy, ensuring robust performance on unseen data.
 
-
+Evaluation and Prediction: Use hyperparameter tuning to choose best parameter to reduce overfitting, then predict the value using unseen data
 
 **Contact**
 
